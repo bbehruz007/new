@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,7 +62,7 @@
     <main class="main" id="main">
         <section class="buisness" id="buisness">
             <div class="container buisness-container">
-                <div class="buisness-info">
+                <div class="buisness-info" data-aos="fade-right">
                     <h1 class="buisness-heading">Biznesingizni keyingi bosqichga olib chiqing</h1>
 
                     <p class="buisness-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam
@@ -70,8 +72,9 @@
                     <a class="main-btn" href="#">Xizmatlar bilan tanishish</a>
                 </div>
 
-                <iframe class="iframe" width="458" height="258" src="https://www.youtube.com/embed/hSU916-qdKg"
-                    title="Shokh ake &amp; Doniyor Kayumov Gonka" frameborder="0"
+                <iframe class="iframe" data-aos="fade-left" width="458" height="258"
+                    src="https://www.youtube.com/embed/hSU916-qdKg" title="Shokh ake &amp; Doniyor Kayumov Gonka"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
@@ -86,7 +89,7 @@
                         sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
                 </div>
 
-                <ul class="cards">
+                <ul class="cards" data-aos="zoom-in">
                     <li class="card">
                         <img class="card-image" src="./website-illustration.jpg" alt="rasm">
                         <h3 class="card-heading">Telegram bot</h3>
@@ -118,7 +121,7 @@
                     </li>
                 </ul>
 
-                <div class="button">
+                <div class="button" data-aos="zoom-in">
                     <a class="main-btn" href="#">Buyurtma berish</a>
                 </div>
             </div>
@@ -127,14 +130,14 @@
 
     <footer class="footer" id="footer">
         <div class="container footer-container">
-            <div class="site-info">
+            <div class="site-info" data-aos="zoom-in-right">
                 <h3 class="heading">Copyright 2020</h3>
                 <p class="text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia
                     ex, eget
                     sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
             </div>
 
-            <div class="site-page">
+            <div class="site-page" data-aos="zoom-out">
                 <h3 class="heading">Sayt sahifalari</h3>
 
                 <ul class="footer-links">
@@ -164,7 +167,7 @@
                 </ul>
             </div>
 
-            <div class="site-connect">
+            <div class="site-connect" data-aos="zoom-out-up">
                 <h3 class="heading">Biz internetda</h3>
 
                 <ul class="footer-links">
@@ -198,6 +201,12 @@
             src="https://png.pngtree.com/png-vector/20220628/ourmid/pngtree-up-arrow-direction-top-icon-png-image_5289676.png"
             alt="icon">
     </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
